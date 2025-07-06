@@ -19,7 +19,7 @@ jobs:
       uses: docker/login-action@v3
       with:
         username: ${{ secrets.milaanshreya@gmail.com}}       
-        password: ${{ secrets.giyhub@06 }}       
+        password: ${{ secrets.github@06 }}       
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
